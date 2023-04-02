@@ -7,9 +7,15 @@ def diff(a,b):
 def mul(a,b):
     return a*b
 
+def div(a,b):
+    return a/b
+
 c = sum(10, 20)
 d = diff(10,20)
-e = mul(34, 67)
+p = mul(10,20)
+q = div(20,10)
+
 print(c)
 print(d)
-print(e)
+print(q)
+print(p)
