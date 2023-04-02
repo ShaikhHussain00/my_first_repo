@@ -10,10 +10,13 @@ def mul(a,b):
 def div(a,b):
     return a/b
 
-c = sum(10, 20)
-d = diff(10,20)
-p = mul(10,20)
-q = div(20,10)
+a = int(input("enter the value of a: "))
+b = int(input("enter the value of b: "))
+
+c = sum(a, b)
+d = diff(a,b)
+p = mul(a, b)
+q = div(a,b)
 
 print(c)
 print(d)
